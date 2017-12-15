@@ -1,0 +1,28 @@
+baseurl = "https://tech.codeyellow.nl/"
+languageCode = "en-us"
+title = "CY Tech"
+theme = "kiera"
+copyright = "Code Yellow BV"
+
+pygmentsCodeFences = true
+#pygmentsstyle = "native"
+#pygmentsuseclasses = false
+
+[Author]
+	name = "Code Yellow BV"
+
+[Permalinks]
+	blog = "/:year/:month/:title/"
+	code = "/:filename/"
+
+[Taxonomies]
+	tag = "tags"
+	#series = "series"
+	#series-desc = "series-desc"
+
+[params]
+	description = "by Code Yellow BV"
+	github = "https://github.com/CodeYellowBV"
+	#twitter = "https://twitter.com/natethefinch"
+	#gplus = "https://plus.google.com/+NateFinch"
+	#mainImage = "/moose.svg"
