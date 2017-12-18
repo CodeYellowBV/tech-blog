@@ -127,6 +127,31 @@ and you have to really check the docs because your intuition is not
 going to be of any use here.
 
 
+### Also, error reporting is overrated
+
+Not implementing REST correctly is somewhat excusable (even the
+"experts" can get it wrong), but what really made that same API a pain
+to work with is the fact that they don't consistently implement error
+handling.
+
+For example, it supports storing a route between several waypoints.
+When you save such a route, you will get a response containing XML
+like `<result>123</result>`.  The `123` is an identifier you can use
+when doing other operations on the route.
+
+Usually, when something goes wrong you get a `400` error status with
+an exception code and message in it (sometimes even revealing internal
+server details!).  But in this particular route API, it will return
+`<result>0</result>`.  This can mean anything from "there are required
+fields missing" to "the name you supplied already exists" (because
+names are supposed to be unique).  Unfortunately, we have a big issue
+with this API where it sometimes will return a zero result for
+*exactly the same request* we successfully managed to send before.
+This makes it impossible to debug, of course.  Getting this fixed is
+going to take months according to the vendor, so we're completely
+stuck with debugging this, as it will fail seemingly(!) randomly.
+
+
 ## Don't worry, we'll keep track of everything for you
 
 One API we work with uses OAuth 2.  This is its own tire fire of an
