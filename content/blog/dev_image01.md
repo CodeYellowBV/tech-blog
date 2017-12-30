@@ -1,16 +1,13 @@
 +++
 title = "The ideal development image"
+author = "Rene Cremers"
 slug = "the-ideal-development-image"
 date = "2013-04-11"
 description = ""
 aliases = ["/the-ideal-development-image.html"]
 keywords = ["proxmox", "linux", "development image"]
-categories = [""]
 tags = ["proxmox", "linux", "development image"]
 +++
-
-author: Rene Cremers
-
 
 To take full advantage of the Proxmox development servers we decided to make a fresh development image with all
 settings preset, so when you start a project, you only have to load a fresh image into a Virtual Private Server

@@ -1,15 +1,14 @@
 +++
 title = "Using Trello for our Development Workflow"
+author = "Rene Cremers"
 slug = "werkwijze02"
 date = "2013-09-30"
 description = ""
 aliases = ["/werkwijze02.html"]
 keywords = ["Workflows", "Werkwijze", "Trello", "Tools"]
-categories = [""]
 tags = ["Workflows", "Werkwijze", "Trello", "Tools"]
 +++
 
-author: Rene Cremers
 
 > This is a repost of an article I wrote a couple of weeks ago, which featured another project as an example, but we received a request to change some aspects of the original story. We decided the quick fix was to pull the original site and rewrite it with other examples.
 

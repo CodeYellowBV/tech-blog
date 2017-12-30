@@ -1,15 +1,13 @@
 +++
 title = "Coding style guide"
+author = "Burhan Zainuddin"
 slug = "coding-style-guide"
 date = "2013-07-05"
 description = ""
 aliases = ["/coding-style-guide.html"]
 keywords = ["PHP", "Javascript"]
-categories = [""]
 tags = ["PHP", "Javascript"]
 +++
-
-author: Burhan Zainuddin
 
 
 <img alt="test" title="marionette" src="/images/codingStyleGuide.jpg" style="

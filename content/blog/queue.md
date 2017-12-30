@@ -1,15 +1,13 @@
 +++
 title = "Queue"
+author = "Stefan Majoor"
 slug = "Queue"
 date = "2015-10-22"
 description = ""
 aliases = ["/queue.html"]
 keywords = ["Projects", "PHP", "FuelPHP", "Queue", "Open Source", "Software Development"]
-categories = [""]
 tags = ["Projects", "PHP", "FuelPHP", "Queue", "Open Source", "Software Development"]
 +++
-
-author: Stefan Majoor
 
 In our organization we frequently need to execute some scripts that are either time consuming, or very heavy on the server. Most of the times these scripts needn't necessarily be executed synchronously. Therefore we use a queuing system to execute those scripts when the time is better.  For a long time we used an old open source PHP queuing system, named [fuel-queue](https://github.com/kavinsky/fuel-queue). This was good for the basic stuff we did with it, however this system had some major drawbacks. It had no exception management whatsoever, which meant that jobs now and then just disappeared. Lately we have encountered more and more projects that would need queuing. We made the decision to create a new queuing system. We really liked the idea behind fuel-queue, and have made our new system in such a way that it kept this idea. The best thing is that we made this new queuing system is completely open source!
 

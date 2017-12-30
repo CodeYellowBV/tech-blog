@@ -1,14 +1,12 @@
 +++
 title = "Tangible Breakage"
+author = "Burhan Zainuddin"
 slug = "tangible-breakage"
 date = "2015-05-29"
 description = ""
 aliases = ["/tangible-breakage.html"]
-categories = [""]
 tags = ["projects", "tablet", "app"]
 +++
-
-author: Burhan Zainuddin
 
 
 After spending many years coding and building software products from scratch, you know that stuff breaks (for example because of bugs or server crashes). Software is intangible, so it doesn't break like glass does. But even though it's intangible, software can become old and even the bits can rot. It needs maintenance and care for it to run for years on end. 

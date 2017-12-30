@@ -1,15 +1,13 @@
 +++
 title = "Rapid Cordova application development"
+author = "Peter Bex"
 slug = "rapid-cordova-application-development"
 date = "2014-02-05"
 description = ""
 aliases = ["/rapid-cordova-application-development.html"]
 keywords = ["Software Development", "Open Source", "Cordova"]
-categories = [""]
 tags = ["Software Development", "Open Source", "Cordova"]
 +++
-
-author: Peter Bex
 
 Developing [Apache Cordova](http://www.cordova.io/) (aka
 [Phonegap](http://www.phonegap.com)) applications tends to be rather

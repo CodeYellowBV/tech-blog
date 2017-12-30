@@ -1,15 +1,13 @@
 +++
 title = "Just some days at the office"
+author = "Rene Cremers"
 slug = "DevOps01"
 date = "2014-05-06"
 description = ""
 aliases = ["/DevOps01.html"]
 keywords = ["General", "Development", "Fun", "Development Environment"]
-categories = [""]
 tags = ["General", "Development", "Fun", "Development Environment"]
 +++
-
-author: Rene Cremers
 
 
 ## Customer Changes Requirement just before the deadline

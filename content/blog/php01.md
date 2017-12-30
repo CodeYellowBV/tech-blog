@@ -1,16 +1,13 @@
 +++
 title = "FuelPHP released version 1.6"
+author = "Rene Cremers"
 slug = "fuelphp-released-version-16"
 date = "2013-05-03"
 description = ""
 aliases = ["/fuelphp-released-version-16.html"]
 keywords = ["Frameworks","PHP", "FuelPHP", "Open Source", "Software Development"]
-categories = [""]
 tags = ["Frameworks", "PHP", "FuelPHP", "Open Source", "Software Development"]
 +++
-
-author: Rene Cremers
-
 
 Today the kind people at [FuelPHP released a new version](http://fuelphp.com/blogs/2013/05/fuelphp-releases-v1-6) 
 of their framework, promising some big changes and improvements. The official introduction of Composer is perhaps

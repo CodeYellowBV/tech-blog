@@ -1,15 +1,13 @@
 +++
 title = "Raspberry Pi prototyping development"
+author = "Rene Cremers"
 slug = "rpi1"
 date = "2013-04-20"
 description = ""
 aliases = ["/rpi1.html"]
 keywords = ["Raspberry Pi", "linux", "Rpi Development", "prototyping", "printers", "python"]
-categories = [""]
 tags = ["Raspberry Pi", "linux", "Rpi Development", "prototyping", "printers", "python"]
 +++
-
-author: Rene Cremers
 
 
 <img alt="rpi 1" title="Raspberry Pi" src="/images/rpi1.jpg" style="width: 100%;" />

@@ -1,15 +1,13 @@
 +++
 title = "What your framework never told you about SQL injection protections"
+author = "Peter Bex"
 slug = "identifier-sqli"
 date = "2014-05-20"
 description = ""
 aliases = ["/identifier-sqli.html"]
 keywords = ["security", "frameworks", "SQL injection", "Laravel", "FuelPHP", "CakePHP", "CodeIgniter", "Lithium"]
-categories = [""]
 tags = ["security", "frameworks", "SQL injection", "Laravel", "FuelPHP", "CakePHP", "CodeIgniter", "Lithium"]
 +++
-
-author: Peter Bex
 
 
 We've discovered that SQL injection is to this day not a fully solved

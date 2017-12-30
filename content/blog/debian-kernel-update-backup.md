@@ -1,15 +1,15 @@
 +++
 title = "Kernel backups for Debian security updates"
+author = "Marcel Moreaux"
 slug = "debian-kernel-update-backup"
 date = "2014-07-02"
 description = ""
 aliases = ["/debian-kernel-update-backup.html"]
 keywords = ["debian", "kernel", "updates", "initrd", "backup", "boot"]
-categories = [""]
 tags = ["debian", "kernel", "updates", "initrd", "backup", "boot"]
 +++
 
-author: Marcel Moreaux
+
 
 
 Two of our most important machines, both running Debian Stable, failed to boot after a routine kernel security update.

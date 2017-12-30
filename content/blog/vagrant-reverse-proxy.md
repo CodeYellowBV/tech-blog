@@ -1,15 +1,13 @@
 +++
 title = "Accessing your Vagrant boxes through a reverse proxy"
+author = "Peter Bex"
 slug = "vagrant-reverse-proxy"
 date = "2016-03-16"
 description = ""
 aliases = ["/vagrant-reverse-proxy.html"]
 keywords = ["Tools", "DevOps", "Vagrant", "Ruby"]
-categories = [""]
 tags = ["Tools", "DevOps", "Vagrant", "Ruby"]
 +++
-
-author: Peter Bex
 
 The past year we've been making increased use of
 [Vagrant](http://www.vagrantup.com) to streamline our development

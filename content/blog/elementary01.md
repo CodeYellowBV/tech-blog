@@ -1,15 +1,15 @@
 +++
 title = "Elementary OS Luna Beta 2 Released"
+author = "Rene Cremers"
 slug = "ElementaryOS01"
 date = "2013-05-06"
 description = ""
 aliases = ["/ElementaryOS01.html"]
 keywords = ["Elementary OS", "linux", "Development Environment"]
-categories = [""]
 tags = ["Elementary OS", "linux", "Development Environment"]
 +++
 
-author: Rene Cremers
+
 
 
 <img alt="rpi 1" title="Raspberry Pi" src="/images/screenshot01.jpg" style="width: 100%;" />

@@ -1,16 +1,15 @@
 +++
 title = "APIs only a mother could love"
+author = "Peter Bex"
 draft = true
 slug = "ugly-apis"
 date = "2017-12-15"
 description = ""
 aliases = ["/ugly-apis.html"]
 keywords = ["Development", "API", "3rd party", "integrations"]
-categories = [""]
 tags = ["Development", "API", "3rd party", "integrations"]
 +++
 
-author: Peter Bex
 
 Lately we've been integrating more 3rd party APIs than usual, and the
 experience was less than great in almost every case.  Let's take a

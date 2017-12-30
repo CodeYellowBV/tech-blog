@@ -1,15 +1,13 @@
 +++
 title = "Refactoring our frontend development stack"
+author = "Kees Kluskens"
 slug = "refactoring-our-frontend-development-stack"
 date = "2015-10-22"
 description = ""
 aliases = ["/refactoring-our-frontend-development-stack.html"]
 keywords = ["Software Development", "Javascript"]
-categories = [""]
 tags = ["Software Development", "Javascript"]
 +++
-
-author: Kees Kluskens
 
 At Code Yellow we write frontend heavy apps. This means that the browser is responsible for all the rendering, and the backend only handles API requests.
 

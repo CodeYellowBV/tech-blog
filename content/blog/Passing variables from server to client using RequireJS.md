@@ -1,15 +1,13 @@
 +++
 title = "Passing variables from server to client using RequireJS"
 slug = "passing-variables-from-server-to-client-using-requirejs"
+author = "Burhan Zainuddin"
 date = "2013-12-10"
 description = ""
 aliases = ["/passing-variables-from-server-to-client-using-requirejs.html"]
 keywords = ["RequireJS", "Javascript"]
-categories = [""]
 tags = ["RequireJS", "Javascript"]
 +++
-
-author: Burhan Zainuddin
 
 It's quite common to pass variables from server to client. Common uses are bootstrapping data, syncing config setting etc.
 Consider the following scenario: a single page app where a user logs in and refreshes the current page. You want the user to

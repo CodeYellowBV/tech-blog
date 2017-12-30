@@ -1,15 +1,14 @@
 +++
 title = "QR encoding"
+author = "Daan van der Kallen"
 draft = true
 slug = "qr-encoding"
 date = "2017-12-28"
 description = ""
 keywords = ["Development", "encoding", "QR"]
-categories = [""]
 tags = ["Development", "encoding", "QR"]
 +++
 
-author: Daan van der Kallen
 
 ## Intro
 For a project we had to put text in QR-codes, seemed simple enough, but sadly

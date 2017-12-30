@@ -1,16 +1,13 @@
 +++
 title = "New development and test environment installed"
+author = "Rene Cremers"
 slug = "servers01"
 date = "2013-03-27"
 description = ""
 aliases = ["/post1.html"]
 keywords = ["servers", "development environment", "linux", "proxmox"]
-categories = [""]
 tags = ["servers", "development environment", "linux", "proxmox"]
 +++
-
-
-author: Rene Cremers
 
 
 Today some new servers arrived at Code Yellow HQ! The boxes were obsolete at a data center of one of our customers
