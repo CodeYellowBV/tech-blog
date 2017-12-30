@@ -97,6 +97,7 @@ h2.brand-tagline {
 	font-weight: 200;
 }
 .sidebar {
+	min-width: 280px;
 	background: #2d303b;
 }
 .sidebar, .sidebar p {

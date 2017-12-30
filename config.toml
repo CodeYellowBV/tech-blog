@@ -21,11 +21,7 @@ pygmentsCodeFences = true
 	#series-desc = "series-desc"
 
 [params]
-	description = "by Code Yellow BV"
-	github = "https://github.com/CodeYellowBV"
-	#twitter = "https://twitter.com/natethefinch"
-	#gplus = "https://plus.google.com/+NateFinch"
-	#mainImage = "/moose.svg"
+
   sidebartitle = "Tech Blog"
   sidebartagline = "Articles about software development, interesting devops challenges, the business of software and just some other random office things"
   sidebarphoto = "/images/logo-wit.png"
@@ -44,6 +40,11 @@ pygmentsCodeFences = true
     url = "https://www.codeyellow.nl"
 
 [[menu.social]]
-	pre = "<i class='fa fa-github'></i>"
+	pre = "<i class='fa fa-2x fa-github'></i>"
     url = "https://github.com/CodeYellowBV"
     identifier = "CY Github"
+
+[[menu.social]]
+  pre = "<i class='fa fa-2x fa-bitbucket'></i>"
+    url = "https://bitbucket.org/codeyellow/"
+    identifier = "CY Bitbucket"
