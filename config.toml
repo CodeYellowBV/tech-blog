@@ -32,7 +32,15 @@ pygmentsCodeFences = true
 
 
 [[menu.main]]
-    name = "Code Yellow Home"
+    name = "Articles"
+    url = "/blog" 
+
+[[menu.main]]
+    name = "Code (Open Source)"
+    url = "/code" 
+
+[[menu.main]]
+    name = "Code Yellow main site"
     url = "https://www.codeyellow.nl"
 
 [[menu.social]]

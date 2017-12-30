@@ -22,13 +22,14 @@ a {
   -webkit-transition:.5s;
   transition:.5s;
   color: #616161;
+  text-decoration: none;
 }
 a:hover {
 	color:#E54028;
 }
 a:hover,
 a:focus {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a.pure-button:hover, a.pure-button:focus {
 	color: inherit;
