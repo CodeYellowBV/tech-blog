@@ -1,7 +1,7 @@
 baseurl = "https://tech.codeyellow.nl/"
 languageCode = "en-us"
 title = "CY Tech"
-theme = "hugo-redlounge"
+theme = "cy-redlounge"
 copyright = "Code Yellow BV"
 
 pygmentsCodeFences = true
