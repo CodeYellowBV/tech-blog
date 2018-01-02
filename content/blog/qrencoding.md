@@ -1,7 +1,6 @@
 +++
 title = "QR encoding"
 author = "Daan van der Kallen"
-draft = true
 slug = "qr-encoding"
 date = "2017-12-28"
 description = ""
