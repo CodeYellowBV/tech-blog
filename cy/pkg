@@ -1,0 +1,49 @@
+#! /usr/bin/make -f
+
+error: FORCE
+	@echo "Valid targets: version prepare build test clean pre-install install post-install"
+	@exit 2
+
+# Empty rule to force other rules to be updated.
+FORCE:
+
+
+
+version: FORCE
+	@echo "3"
+
+
+
+prepare: FORCE
+
+
+
+build: FORCE
+	mv site/ src/
+	cd src/ && hugo
+	mv src/public/ site/
+
+
+
+test: FORCE
+
+
+
+clean: FORCE
+	rm -rf src/
+
+
+
+pre-install: FORCE
+
+
+
+install: FORCE
+
+
+
+post-install: FORCE
+
+
+
+migrate: FORCE
