@@ -2,7 +2,7 @@
 title = "Fun with foreign data wrappers"
 author = "Peter Bex"
 slug = "fun-with-fdw"
-date = "2018-06-08"
+date = "2018-06-11"
 description = ""
 aliases = []
 keywords = ["fdw", "foreign data wrappers", "postgresql"]
