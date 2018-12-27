@@ -30,8 +30,7 @@ future subscriber can decide when their subscription starts.  For
 example, they can ask for the subscription to be started two months
 from now and we have to honor that.  However, it takes time to process
 subscriptions.  So if I subscribe today and ask for my paper to be
-delivered tomorrow, that's not going to work.  Our customer wants the
-start date to begin on the first 
+delivered tomorrow, that's not going to work.
 
 In principle, we want payment for subscriptions to start in the same
 month the paper starts to be delivered.  To make things more
