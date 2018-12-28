@@ -129,8 +129,10 @@ To understand a bit better what is going on, we need to dig in a bit
 more.
 
 Even though the `timestamptz` column stores a time zone with the
-time stamp, the output of the query will **always** be echoed back in
-the selected current time zone:
+time stamp (**update**: It was [pointed out to me](https://lobste.rs/s/xrb0u0/subtleties_time_zone_calculations#c_weoddj)
+that it doesn't actually do so; it just stores the timestamp at UTC),
+the output of the query will **always** be echoed back in the selected
+current time zone:
 
 ```sql
 psql=> SET TIME ZONE 'Europe/Amsterdam';
