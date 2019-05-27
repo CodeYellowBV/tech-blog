@@ -95,7 +95,8 @@ Let's start by creating a read-only user on the primary (but please,
 pick a good password!):
 
 ```sh
-primary$ sudo -u postgres psql -c "CREATE USER readonly WITH password 'test123'"
+primary$ sudo -u postgres psql -c "CREATE USER readonly WITH password 'test123' REPLICATION"
+primary$ sudo -u postgres psql -c "GRANT CONNECT ON DATABASE USER readonly WITH password 'test123' REPLICATION"
 ```
 
 Now, we can create a replication cluster on the secondary.  For
